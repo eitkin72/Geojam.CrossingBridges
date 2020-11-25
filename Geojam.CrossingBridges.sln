@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contents", "Contents", "{46AFF85F-2AED-4AC1-9054-533F8683F68E}"
 	ProjectSection(SolutionItems) = preProject
 		Data.yaml = Data.yaml
+		Project Document.docx = Project Document.docx
 	EndProjectSection
 EndProject
 Global

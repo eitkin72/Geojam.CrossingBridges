@@ -40,27 +40,6 @@ namespace Geojam.Api.Providers.Classes
                 logger?.LogError(ex.ToString());
                 return (false, null, ex.Message);
             }
-        }
-
-        public async Task<(bool IsSuccess, SortedList<double, Models.Hiker> SortedHikers, string ErrorMessage)> GetSortedHikersAsync(Models.Bridge[] bridges)
-        {
-            try
-            {
-                SortedList<double, Models.Hiker> result = new SortedList<double, Models.Hiker>();
-                foreach (var bridge in bridges)
-                {
-                    foreach (var hiker in bridge.Hikers)
-                    {
-                        result.Add(hiker.CrossingSpeed, hiker);
-                    }                    
-                }                
-                return (true, await Task.Run(() => result), null);
-            }
-            catch (Exception ex)
-            {
-                logger?.LogError(ex.ToString());
-                return (false, null, ex.Message);
-            }
-        }
+        }       
     }
 }

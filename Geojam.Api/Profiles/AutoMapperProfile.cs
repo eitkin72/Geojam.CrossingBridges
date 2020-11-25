@@ -9,7 +9,7 @@ namespace Geojam.Api.Profiles
     {
         public AutoMapperProfile()
         {
-            CreateMap<Db.Hiker, Models.Hiker>();
+            CreateMap<Db.Hiker, Models.Hiker>();                
             CreateMap<Db.Bridge, Models.Bridge>();
         }
     }
