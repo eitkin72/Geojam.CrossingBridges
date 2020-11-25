@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geojam.CrossingBridges", "Geojam.CrossingBridges\Geojam.CrossingBridges.csproj", "{9CBAFF22-CDAA-4A58-A858-D27FC4034A4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Geojam.Api", "Geojam.Api\Geojam.Api.csproj", "{D3B70BAF-5656-4414-944C-1232A7B295D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geojam.Api.Tests", "Geojam.Api.Tests\Geojam.Api.Tests.csproj", "{C879D6D0-490C-4E1D-ACE9-BBEACFD1C1A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contents", "Contents", "{46AFF85F-2AED-4AC1-9054-533F8683F68E}"
+	ProjectSection(SolutionItems) = preProject
+		Data.yaml = Data.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +18,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9CBAFF22-CDAA-4A58-A858-D27FC4034A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CBAFF22-CDAA-4A58-A858-D27FC4034A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CBAFF22-CDAA-4A58-A858-D27FC4034A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CBAFF22-CDAA-4A58-A858-D27FC4034A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3B70BAF-5656-4414-944C-1232A7B295D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B70BAF-5656-4414-944C-1232A7B295D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B70BAF-5656-4414-944C-1232A7B295D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B70BAF-5656-4414-944C-1232A7B295D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C879D6D0-490C-4E1D-ACE9-BBEACFD1C1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C879D6D0-490C-4E1D-ACE9-BBEACFD1C1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C879D6D0-490C-4E1D-ACE9-BBEACFD1C1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C879D6D0-490C-4E1D-ACE9-BBEACFD1C1A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

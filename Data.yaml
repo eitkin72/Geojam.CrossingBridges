@@ -1,0 +1,35 @@
+---
+# Bridges:
+- Id: 3
+  Order: 3
+  Span: 150
+  Hikers:
+  - Id: 6
+    Name: F
+    CrossingSpeed: 25
+  - Id: 7
+    Name: G
+    CrossingSpeed: 15
+- Id: 1
+  Order: 1
+  Span: 100
+  Hikers:
+  - Id: 1
+    Name: A
+    CrossingSpeed: 100
+  - Id: 2
+    Name: B
+    CrossingSpeed: 50
+  - Id: 3
+    Name: C
+    CrossingSpeed: 20
+  - Id: 4
+    Name: D
+    CrossingSpeed: 10
+- Id: 2
+  Order: 2
+  Span: 250
+  Hikers:
+  - Id: 5
+    Name: E
+    CrossingSpeed: 2.5

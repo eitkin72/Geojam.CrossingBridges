@@ -1,0 +1,60 @@
+{
+  "Bridges": [
+    {
+      "BridgeId":  1,
+      "Order": 1,
+      "Span": 100,
+      "Hikers": [
+        {
+          "HikerId":  1,
+          "Name": "A",
+          "CrossingSpeed": 100
+        },
+        {
+          "HikerId": 2,
+          "Name": "B",
+          "CrossingSpeed": 50
+        },
+        {
+          "HikerId": 3,
+          "Name": "C",
+          "CrossingSpeed": 20
+        },
+        {
+          "HikerId": 4,
+          "Name": "D",
+          "CrossingSpeed": 10
+        }
+      ]
+    },
+    {
+      "BridgeId":  2,
+      "Order": 2,
+      "Span": 250,
+      "Hikers": [
+        {
+          "HikerId": 5,
+          "Name": "E",
+          "CrossingSpeed": 2.5
+        }
+      ]
+    },
+    {
+      "BridgeId": 3,
+      "Order": 3,
+      "Span": 150,
+      "Hikers": [
+        {
+          "HikerId": 6,
+          "Name": "F",
+          "CrossingSpeed": 25
+        },
+        {
+          "HikerId": 7,
+          "Name": "G",
+          "CrossingSpeed": 15
+        }
+      ]
+    }
+  ]
+}
